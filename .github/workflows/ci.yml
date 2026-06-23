@@ -2,12 +2,9 @@ name: CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
-  workflow_dispatch:
+    branches: [ main ]
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -17,17 +14,12 @@ jobs:
   macos:
     name: macOS · Swift
     runs-on: macos-14
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-
+      - uses: actions/checkout@v4
       - name: Swift version
         run: swift --version
-
       - name: Build
         run: swift build -v
-
       - name: Test
         run: swift test -v
 
@@ -35,16 +27,11 @@ jobs:
     name: Linux · Swift 5.10
     runs-on: ubuntu-latest
     container: swift:5.10
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-
+      - uses: actions/checkout@v4
       - name: Swift version
         run: swift --version
-
       - name: Build
         run: swift build -v
-
       - name: Test
         run: swift test -v
