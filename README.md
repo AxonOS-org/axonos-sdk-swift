@@ -4,7 +4,7 @@
 
 **A pure-Swift binding for the AxonOS typed intent stream — iOS, iPadOS, macOS, tvOS, watchOS.**
 
-[![CI](https://github.com/AxonOS-org/axonos-sdk-swift/actions/workflows/ci.yml/badge.svg)](https://github.com/AxonOS-org/axonos-sdk-swift/actions/workflows/ci.yml)
+[![CI](https://github.com/AxonOS-org/axonos-sdk-swift/actions/workflows/ci.yml/badge.svg)](https://github.com/AxonOS-org/axonos-sdk-swift/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/AxonOS-org/axonos-sdk-swift?label=release&color=brightgreen)](https://github.com/AxonOS-org/axonos-sdk-swift/releases)
 ![Swift](https://img.shields.io/badge/Swift-5.9%2B-orange)
 ![Platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20iPadOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS-blue)
 ![Kernel ABI](https://img.shields.io/badge/kernel%20ABI-v1-success)
