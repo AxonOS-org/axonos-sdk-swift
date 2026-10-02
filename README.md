@@ -9,6 +9,7 @@
 ![Platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20iPadOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS-blue)
 ![Kernel ABI](https://img.shields.io/badge/kernel%20ABI-v1-success)
 ![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-blue)
+[![AxonOS Radar](https://img.shields.io/badge/AxonOS%20Radar-open%20neurotech%20map-1f8fae?labelColor=0b1220)](https://axonos-bci.github.io/axonos-community-radar/)
 
 </div>
 
